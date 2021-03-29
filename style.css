@@ -178,15 +178,12 @@ html {
 }
 
 .header .nav-menu li:hover .sub-menu {
-    display: block;
-   
-}
-
-.nav-menu li:hover .sub-menu {
+    /* display: block; */
     height: 200px;
     /* height: auto; */
     opacity: 1;
     transform: translateY(0);
+   
 }
 
 .header .sub-menu {
@@ -201,6 +198,7 @@ html {
     left: 0;
     opacity: 0;
     list-style-type: none;
+    overflow: hidden;
 }
 
 .header .sub-menu li {
